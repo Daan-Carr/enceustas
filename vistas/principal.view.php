@@ -17,9 +17,9 @@
 
 <body>
     <nav class="navbar navbar-light bg-dark fixed-top">
-        <a class="navbar-brand" style="color: white;">Bienvenido <?php echo strtoupper($_SESSION['usuario']); ?></a>
+        <a class="navbar-brand" style="color: white;">Bienvenido <?php echo $_SESSION['usuario']; ?></a>
         <form class="form-inline" action="<?php echo RUTA; ?>principales/cerrar.php" method="POST">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Cerrar Sesión</button>
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Salir</button>
         </form>
     </nav>
     <div class="container-fluid">

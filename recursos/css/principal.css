@@ -7,20 +7,19 @@ body {
 }
 
 .text {
-    font-size: 15px;
+    font-size: 13px;
     font-family: helvetica;
     font-weight: bold;
     color: #71d90b;
-    text-transform: uppercase;
 }
 
 .parpadea {
     animation-name: parpadeo;
-    animation-duration: 1s;
+    animation-duration: 1.7s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     -webkit-animation-name: parpadeo;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1.7s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 }
@@ -29,9 +28,11 @@ body {
     0% {
         opacity: 1.0;
     }
+
     50% {
         opacity: 0.0;
     }
+
     100% {
         opacity: 1.0;
     }
@@ -41,9 +42,11 @@ body {
     0% {
         opacity: 1.0;
     }
+
     50% {
         opacity: 0.0;
     }
+
     100% {
         opacity: 1.0;
     }
@@ -53,9 +56,11 @@ body {
     0% {
         opacity: 1.0;
     }
+
     50% {
         opacity: 0.0;
     }
+
     100% {
         opacity: 1.0;
     }
