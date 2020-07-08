@@ -1,0 +1,1 @@
+Para montar la aplicacion al servidor, importar el archivo SQL de la base de datos que esta ubicado en la carpeta database, modificar los datos que estan en el archivo configuracion.php ubicado en la carpeta data.
